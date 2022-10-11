@@ -26,6 +26,6 @@ public class Exercise_10 {
 		long currentHour = ((totalHours + timeZoneChange) % 24);
 
 		System.out.println("Current time is " + currentHour + ":" + currentMinute + ":" + currentSecond);
-	    input.close();
+		input.close();
 	}
 }

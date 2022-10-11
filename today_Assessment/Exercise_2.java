@@ -16,16 +16,20 @@ public class Exercise_2 {
 		b = sc.nextInt();
 
 		c = a + b;
-		d = a - b;
-		e = a * b;
-		f = a / b;
-		g = a % b;
 		System.out.println("Print the value of c:" + c);
-		System.out.println("Print the value of d:" + d);
+		c = a - b;
+		System.out.println("Print the value of c:" + c);
+		c = a * b;
+		System.out.println("Print the value of c:" + c);
+		c = a / b;
+		System.out.println("Print the value of c:" + c);
+		c = a % b;
+		System.out.println("Print the value of c:" + c);
+		/*System.out.println("Print the value of d:" + d);
 		System.out.println("Print the value of e:" + e);
 		System.out.println("Print the value of f:" + f);
 		System.out.println("Print the value of g:" + g);
-		sc.close();
+		sc.close();*/
 	}
 
 }

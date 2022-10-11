@@ -1,3 +1,4 @@
+//8.Integer between 0 to 1000 add all digits in integer.
 package today_Assessment;
 
 import java.util.Scanner;
@@ -22,3 +23,5 @@ public class Exercise_8 {
         input.close();
 	}
 }
+
+

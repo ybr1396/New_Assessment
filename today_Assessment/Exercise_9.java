@@ -1,5 +1,7 @@
 package today_Assessment;
+
 import java.util.Scanner;
+
 public class Exercise_9 {
 
 	public static void main(String[] args) {
@@ -12,10 +14,10 @@ public class Exercise_9 {
 		double min = input.nextDouble();
 
 		long years = (long) (min / minutesInYear);
-		int days = (int) (min / 60 / 24) % 365;
+		int days = (int) (min / 60 * 24) % 365;
 
 		System.out.println((int) min + " minutes is approximately " + years + " years and " + days + " days");
-        input.close();
+		input.close();
 	}
 
 }
